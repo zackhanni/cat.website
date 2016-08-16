@@ -1,18 +1,4 @@
-body {
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
-}
 
-h1 {
-	font-family: Palatino, 'Palatino Linotype', serif;
-	font-size: 32px;
-}
-
-h2 {
-	font-size: 56px;
-}
 
 /*navigation*/
 
@@ -53,7 +39,6 @@ nav a {
   margin-right: 30px;
   padding: 5px 5px;
   border: 1px solid #204156;
-
 }
 
 .button a:active {
@@ -62,6 +47,22 @@ nav a {
 }
 
 /*body*/
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-family: Palatino, 'Palatino Linotype', serif;
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
 
 .main {
 	background-image: url("https://d2d00szk9na1qq.cloudfront.net/Product/e7db8457-9de5-419a-a79f-dc2c2093399c/Images/Large_0317452.jpg");
@@ -73,10 +74,9 @@ nav a {
 
 
 p {
-	font-size: 16px;
+	font-size: 1em;
 	text-align: justify;
 	padding: 0 100px;
-
 }
 
 .hero a {
@@ -87,6 +87,6 @@ p {
 }
 
 #footer {
-  font-size: 0.75rem;
-  
+  font-size: 1em;
+  text-align: center;
 }
