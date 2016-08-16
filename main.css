@@ -1,0 +1,92 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-family: Palatino, 'Palatino Linotype', serif;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+/*navigation*/
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.button {
+  float: right;
+  padding-bottom: 20px;
+}
+
+.button a {
+  position: relative;
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.button a:active {
+  top: 2px;
+
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+/*body*/
+
+.main {
+	background-image: url("https://d2d00szk9na1qq.cloudfront.net/Product/e7db8457-9de5-419a-a79f-dc2c2093399c/Images/Large_0317452.jpg");
+	background-size: cover;
+	padding: 50px 0;
+	margin: 20px;
+  color: #ffffff;
+}
+
+
+p {
+	font-size: 16px;
+	text-align: justify;
+	padding: 0 100px;
+
+}
+
+.hero a {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: #00FFAA;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+#footer {
+  font-size: 0.75rem;
+  
+}
