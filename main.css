@@ -30,13 +30,20 @@ nav ul {
   display: inline;
 }
 
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
 .container {
 	padding-left: 100px;
 	padding-right: 100px;
 }
 
 .button {
-  float: right;
+  float: center;
   padding-bottom: 20px;
 }
 
@@ -44,7 +51,7 @@ nav ul {
   position: relative;
   cursor: pointer;
   margin-right: 30px;
-  padding: 8px 18px;
+  padding: 5px 5px;
   border: 1px solid #204156;
 
 }
@@ -52,13 +59,6 @@ nav ul {
 .button a:active {
   top: 2px;
 
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
 }
 
 /*body*/
